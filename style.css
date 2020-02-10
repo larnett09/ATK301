@@ -2,6 +2,10 @@
   background-color: black
 }
 
+h1, h2, h3, h4{
+  color: white;
+}
+
 p {
  color: #ff3366;
 }
