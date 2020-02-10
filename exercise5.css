@@ -2,10 +2,18 @@ header {
   background-color: #3333ff;
 }
 
+h1 {
+  color: white;
+}
+
 a:link {
  color: #00ff00;
 }
 
 a:link{
   hover: #ffff00;
+}
+
+h2 {
+  color: #3333ff;
 }
