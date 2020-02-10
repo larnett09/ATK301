@@ -17,3 +17,15 @@ a:link{
 h2 {
   color: #3333ff;
 }
+
+.spantyle {
+  color: #ff6600;
+  }
+
+  h3 {
+    background-color: yellow;
+  }
+
+  h4 {
+    background-color: green;
+  }
