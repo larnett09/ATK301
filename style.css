@@ -29,6 +29,9 @@ a:active {
 a:hover {
  color: #ffff00;
 }
+.spanstyle{
+  color: #ff4d94;
+}
 
 /*a {
  text-decoration: none;
