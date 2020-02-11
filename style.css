@@ -6,25 +6,9 @@
   background-color: black
 }
 
-img, textarea {
+img {
   max-width: 100%;
 }
-
-h1, h2, h3, h4, h5{
-  color: #fafafa;
-}
-
-body {
-  color: #fafafa;
-  line-height: 1.45;
-  margin: 6rem auto 1rem;
-  max-width: 48rem;
-  padding: .25rem;
-}
-
-/*p {
- color: #fafafa;
-}*/
 
 a {
  color: #ff3300;
@@ -45,14 +29,29 @@ a:active {
 a:hover {
  color: #ffff00;
 }
-.spanstyle{
-  color: #ff4d94;
+
+h1, h2, h3, h4, h5{
+  color: #00ff40;
+}
+
+body {
+  color: #fafafa;
+  line-height: 1.45;
+  margin: 6rem auto 1rem;
+  max-width: 48rem;
+  padding: .25rem;
+}
+/*https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
+https://www.w3schools.com/cssref/pr_dim_line-height.asp*/
+
+.specialp {
+text-align: justify;
 }
 
 
 
-/*https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
-https://www.w3schools.com/cssref/pr_dim_line-height.asp*/
+
+
 
 /*a {
  text-decoration: none;
@@ -70,7 +69,15 @@ div {
 /*header {
 
 }
-/*.specialp {
+.specialp {
  color: #0000ff;
+}
+
+p {
+ color: #fafafa;
+}
+
+.spanstyle{
+  color: #ff4d94;
 }
 */
