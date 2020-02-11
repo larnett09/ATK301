@@ -6,16 +6,16 @@
   background-color: black
 }
 
+img, textarea {
+  max-width: 100%;
+}
+
 h1, h2, h3, h4, h5{
   color: white;
 }
 
 p {
- color: #ff3366;
-}
-
-.specialp {
- color: #0000ff;
+ color: white;
 }
 
 a {
@@ -57,3 +57,7 @@ a:hover {
 /*header {
 
 }
+/*.specialp {
+ color: #0000ff;
+}
+*/
