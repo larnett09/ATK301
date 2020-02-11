@@ -3,7 +3,8 @@
 }
 
 * {
-  background-image: url(images/gradient.jpg)
+  background-color: black;
+  background-image: url(images/gradient.jpg);
   background-position: top left;
 }
 
