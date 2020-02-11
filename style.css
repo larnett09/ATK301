@@ -11,12 +11,20 @@ img, textarea {
 }
 
 h1, h2, h3, h4, h5{
-  color: white;
+  color: #fafafa;
 }
 
-p {
- color: white;
+body {
+  color: #fafafa;
+  line-height: 1.45;
+  margin: 6rem auto 1rem;
+  max-width: 48rem;
+  padding: .25rem;
 }
+
+/*p {
+ color: #fafafa;
+}*/
 
 a {
  color: #ff3300;
@@ -41,13 +49,10 @@ a:hover {
   color: #ff4d94;
 }
 
-body {
-  color: #fafafa;
-  line-height: 1.45;
-  margin: 6rem auto 1rem;
-  max-width: 48rem;
-  padding: .25rem;
-}
+
+
+/*https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
+https://www.w3schools.com/cssref/pr_dim_line-height.asp*/
 
 /*a {
  text-decoration: none;
@@ -58,7 +63,7 @@ a:hover {
  text-decoration: underline;
 }
 
-/*div {
+div {
 
 }
 
