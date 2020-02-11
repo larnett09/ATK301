@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5{
   color: #00ff40;
 }
 
+.specialp {
+text-align: justify;
+}
+
 body {
   color: #fafafa;
   line-height: 1.45;
@@ -44,9 +48,7 @@ body {
 /*https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
 https://www.w3schools.com/cssref/pr_dim_line-height.asp*/
 
-.specialp {
-text-align: justify;
-}
+
 
 
 
