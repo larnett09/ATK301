@@ -41,6 +41,14 @@ a:hover {
   color: #ff4d94;
 }
 
+body {
+  color: #fafafa;
+  line-height: 1.45;
+  margin: 6rem auto 1rem;
+  max-width: 48rem;
+  padding: .25rem;
+}
+
 /*a {
  text-decoration: none;
 }
