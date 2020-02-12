@@ -3,13 +3,24 @@
 }
 
 * {
-  background-color: black;
   background-image: url(images/gradient.jpg);
   background-position: top left;
 }
 
 img {
   max-width: 100%;
+}
+
+.imgbox {
+border: 10px solid black;
+padding: 5px;
+background-color: white;
+margin: 10px;
+}
+
+header {
+font-style: italic;
+color: orange;
 }
 
 a {
@@ -32,7 +43,7 @@ a:hover {
  color: #ffff00;
 }
 
-h1, h2, h3, h4, h5{
+h2, h3, h4, h5{
   color: #00ff40;
 }
 
