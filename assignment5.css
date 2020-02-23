@@ -6,6 +6,39 @@
   background-color: #FBD335;
 }
 
-*{
-  align-content: center;
+.purplespan1{
+  color: #8D28C6;
+
+}
+
+.purplespan2{
+  color: #8D28C6;
+
+}
+
+.redspan1{
+  color: #FC0036;
+
+}
+
+.redspan2{
+  color: #FC0036;
+
+}
+
+.pinkspan1{
+  color: #FD28FE;
+
+}
+
+.pinkspan2{
+  color: #FD28FE;
+  
+}
+
+body{
+  line-height: 1.45;
+  margin: 6rem auto 1rem;
+  max-width: 48rem;
+  padding: .25rem;
 }
