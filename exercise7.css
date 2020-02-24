@@ -3,6 +3,8 @@ body{
 }
 
 header {
+  grid-column: span 1;
+  background-color: blue;
 }
 
 .wrapper {
@@ -11,21 +13,22 @@ header {
     width: 960px;
     border: 1px solid #ff0000;
     background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 nav {
 }
 
 nav ul {
-  width: 100px;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 nav li {
-  display: inline-block;
   width: 200px;
+  display: inline-block;
 }
 
 nav li a {
@@ -37,11 +40,22 @@ nav li a {
   text-decoration: none;
 }
 
+.imagefloat{
+  border: 5px solid black;
+  float: left;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
 main {
+  grid-column: span 1;
 }
 
 aside {
 }
 
 footer {
+  clear: both;
+  background-color: blue;
+  grid-column: span 3;
 }
