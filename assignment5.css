@@ -6,6 +6,10 @@
   background-color: #FBD335;
 }
 
+* {
+  word-spacing: 15px;
+}
+
 .borderbottom {
   border-bottom: 5px solid #8D28C6;
 }
@@ -17,6 +21,7 @@
 .purplespan1 {
   color: #8D28C6;
   font-size: 20pt;
+
 }
 
 .purplespan2 {
@@ -31,7 +36,7 @@
 
 .redspan1 {
   color: #FC0036;
-  font-size: 46pt;
+  font-size: 86pt;
 }
 
 .redspan2 {
@@ -41,7 +46,7 @@
 
 .pinkspan1 {
   color: #FD28FE;
-  font-size: 46pt;
+  font-size: 86pt;
 }
 
 .pinkspan2 {
@@ -53,7 +58,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 600px;
+  height: 600px;
 }
 
 h1 {
@@ -62,4 +68,28 @@ h1 {
 
 .p1, .p2, .p3, .p4, .p5 {
   text-align: center;
+}
+
+.p1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.p5 {
+  padding-bottom: 10px;
+}
+
+.p6 {
+  text-align: center;
+}
+
+a {
+  color: #8D28C6;
+  text-decoration: none;
+}
+
+.blockimg2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
