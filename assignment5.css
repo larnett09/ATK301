@@ -14,50 +14,52 @@
   border-top: 5px solid #8D28C6;
 }
 
-.purplespan1{
-  color: #8D28C6;
-  font-size: 16pt;
-}
-
-.purplespan2{
+.purplespan1 {
   color: #8D28C6;
   font-size: 20pt;
 }
 
-.purplespan3{
+.purplespan2 {
   color: #8D28C6;
-  font-size: 30pt;
+  font-size: 20pt;
 }
 
-.redspan1{
+.purplespan3 {
+  color: #8D28C6;
+  font-size: 16pt;
+}
+
+.redspan1 {
   color: #FC0036;
-  font-size: 40pt;
+  font-size: 46pt;
 }
 
-.redspan2{
+.redspan2 {
   color: #FC0036;
   font-size: 26pt;
 }
 
-.pinkspan1{
+.pinkspan1 {
   color: #FD28FE;
-  font-size: 40pt;
+  font-size: 46pt;
 }
 
-.pinkspan2{
+.pinkspan2 {
   color: #FD28FE;
-  font-size: 24pt;
+  font-size: 26pt;
 }
 
 .blockimg {
-  display: inline;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-h1{
-text-align: center;
+h1 {
+  text-align: center;
 }
 
-.p1, .p2, .p3, .p4, .p5{
+.p1, .p2, .p3, .p4, .p5 {
   text-align: center;
 }
