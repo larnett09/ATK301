@@ -7,11 +7,11 @@
 }
 
 .borderbottom {
-  border-bottom: 1px solid #8D28C6;
+  border-bottom: 5px solid #8D28C6;
 }
 
 .bordertop {
-  border-top: 1px solid #8D28C6;
+  border-top: 5px solid #8D28C6;
 }
 
 .purplespan1{
@@ -26,41 +26,38 @@
 
 .purplespan3{
   color: #8D28C6;
-  font-size: 12pt;
+  font-size: 30pt;
 }
 
 .redspan1{
   color: #FC0036;
-  font-size: 30pt;
+  font-size: 40pt;
 }
 
 .redspan2{
   color: #FC0036;
-
+  font-size: 26pt;
 }
 
 .pinkspan1{
   color: #FD28FE;
-
+  font-size: 40pt;
 }
 
 .pinkspan2{
   color: #FD28FE;
-
+  font-size: 24pt;
 }
 
 .blockimg {
   display: inline;
-  max-width: 100%
+
+}
+
+h1{
+text-align: center;
 }
 
 .p1, .p2, .p3, .p4, .p5{
   text-align: center;
-}
-
-body{
-  line-height: 1.45;
-  margin: 6rem auto 1rem;
-  max-width: 48rem;
-  padding: .25rem;
 }
