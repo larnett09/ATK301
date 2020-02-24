@@ -6,7 +6,6 @@
   background-color: #FBD335;
 }
 
-
 .borderbottom {
   border-bottom: 1px solid #8D28C6;
 }
@@ -17,13 +16,11 @@
 
 .purplespan1{
   color: #8D28C6;
-  text-align: center;
   font-size: 16pt;
 }
 
 .purplespan2{
   color: #8D28C6;
-  text-align: center;
   font-size: 20pt;
 }
 
@@ -34,30 +31,27 @@
 
 .redspan1{
   color: #FC0036;
-  text-align: center;
   font-size: 30pt;
 }
 
 .redspan2{
   color: #FC0036;
-  text-align: center;
 
 }
 
 .pinkspan1{
   color: #FD28FE;
-  text-align: center;
 
 }
 
 .pinkspan2{
   color: #FD28FE;
-  text-align: center;
 
 }
 
 .blockimg {
   display: inline;
+  max-width: 100%
 }
 
 body{
