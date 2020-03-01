@@ -4,6 +4,8 @@ body{
 
 header {
   font-family: helvetica;
+  font-size: 20;
+  text-align: left;
   color: white;
   background-color: black;
   padding: 12px;
@@ -22,7 +24,7 @@ header {
 }
 
 nav {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 
 nav ul {
@@ -38,7 +40,6 @@ nav li {
 }
 
 nav li a {
-  font: helvetica;
   display: block;
   background-color: red;
   padding: 10px;
@@ -60,6 +61,10 @@ main {
 }
 
 aside {
+  grid-column: span 2;
+  height: 70px;
+  margin: 10px;
+  border-bottom: 2px solid black;
 }
 
 footer {
