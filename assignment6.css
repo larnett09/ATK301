@@ -3,14 +3,19 @@ body{
 }
 
 header {
+  font-family: helvetica;
+  color: white;
   background-color: black;
+  padding: 12px;
+  margin: 12px;
+  grid-column: span 3;
 }
 
 .wrapper {
     margin: 2em auto;
     padding: 0;
     width: 960px;
-    border: 1px solid black;
+    border: 2px solid black;
     background-color: #ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -56,6 +61,6 @@ aside {
 
 footer {
   clear: both;
-  background-color: blue;
+  background-color: red;
   grid-column: span 3;
 }
