@@ -14,7 +14,7 @@ header {
 .wrapper {
     margin: 2em auto;
     padding: 0;
-    width: 960px;
+    width: 660px;
     border: 2px solid black;
     background-color: #ffffff;
     display: grid;
@@ -27,20 +27,22 @@ nav {
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 nav li {
-  width: 200px;
-  display: inline-block;
+  width: 160px;
+  height: 80px;
+  padding: 1px;
 }
 
 nav li a {
+  font: helvetica;
   display: block;
   background-color: red;
-  border: 1px solid black;
-  padding: 1em;
+  padding: 10px;
+  margin: 15px;
   color: white;
   text-decoration: none;
 }
@@ -53,7 +55,8 @@ nav li a {
 }
 
 main {
-  grid-column: span 2;
+  grid-column: span 3;
+  grid-template: 1fr 1fr;
 }
 
 aside {
