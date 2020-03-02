@@ -26,6 +26,19 @@ header {
     display: grid;
 }
 
+.p1{
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.imagefloat{
+  border: 2px solid black;
+  float: left;
+  margin-left: 1px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
 nav {
   font-weight: bold;
   font-family: helvetica;
@@ -53,14 +66,6 @@ nav li a {
   text-decoration: none;
 }
 
-.imagefloat{
-  border: 2px solid black;
-  float: left;
-  margin-left: 1px;
-  margin-right: 10px;
-  padding: 10px;
-}
-
 main {
   font-family: helvetica;
   grid-column: span 2;
@@ -72,13 +77,6 @@ aside {
   margin-bottom: 10px;
   border-bottom: 2px solid black;
 }
-
-.p1{
-  font-family: Georgia;
-  font-weight: bold;
-  justify-content: space-around;
-}
-
 
 footer {
   clear: both;
