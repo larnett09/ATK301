@@ -7,6 +7,10 @@ header {
   background-color: blue;
 }
 
+h2{
+  font: helvetica;
+}
+
 .wrapper {
     margin: 1em auto;
     padding: 0;
