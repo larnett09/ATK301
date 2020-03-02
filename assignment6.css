@@ -28,7 +28,8 @@ header {
 
 .p1{
   font-family: Georgia;
-  font-weight: bold;
+  text-align: justify;
+  font-weight: 400;
 }
 
 .imagefloat{
