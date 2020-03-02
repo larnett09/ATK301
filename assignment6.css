@@ -18,7 +18,7 @@ header {
 }
 
 .wrapper {
-    margin: 2em auto;
+    margin: 3em auto;
     padding: 0;
     width: 960px;
     border: 2px solid black;
@@ -26,10 +26,11 @@ header {
     display: grid;
 }
 
-.p1{
+.p1, .p2, .p3{
   font-family: Georgia;
   text-align: justify;
-  font-weight: 400;
+  font-weight: bold;
+  padding-right: 10px;
 }
 
 .imagefloat{
@@ -58,6 +59,10 @@ nav li {
   padding: 10px;
 }
 
+nav li:hover{
+  color: maroon;
+}
+
 nav li a {
   display: block;
   background-color: red;
@@ -66,6 +71,7 @@ nav li a {
   color: white;
   text-decoration: none;
 }
+
 
 main {
   font-family: helvetica;
@@ -79,8 +85,23 @@ aside {
   border-bottom: 2px solid black;
 }
 
+.a1, .a2{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.a1, .a2:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
 footer {
   clear: both;
   background-color: red;
   grid-column: span 3;
+  font-family: Verdana;
+  font-style: italic;
+  text-align: center;
+  color: white;
 }
