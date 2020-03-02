@@ -84,13 +84,13 @@ aside {
   border-bottom: 2px solid black;
 }
 
-.a1, .a2 {
+.a1, .a2, .a3 {
   color: red;
   text-decoration: none;
   font-weight: bold;
 }
 
-.a1, .a2:hover {
+.a1, .a2, .a3:hover {
   color: blue;
   text-decoration: underline;
 }
