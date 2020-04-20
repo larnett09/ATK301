@@ -5,10 +5,16 @@ body{
 header {
   background-color: #050506;
   grid-column: span 3;
-  background-color: blue;
 }
 
-.wrapper {
+.wrapper1 {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    background-color: #1B1C1D;
+}
+
+.wrapper2 {
     margin: 1em auto;
     padding: 0;
     width: 960px;
