@@ -1,9 +1,10 @@
 body{
-  background-color: #999999;
+  background-color: #050506;
 }
 
 header {
-  grid-column: span 1;
+  background-color: #050506;
+  grid-column: span 3;
   background-color: blue;
 }
 
@@ -14,11 +15,11 @@ header {
     border: 2px solid #0BBA05;
     background-color: #1B1C1D;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 nav {
-  grid-column: span 2;
+  grid-column: span 3;
 }
 
 nav ul {
