@@ -1,6 +1,7 @@
 *{
-  font-family: hack;
+  font-family: Hack;
 }
+
 body{
   background-color: #050506;
 }
@@ -39,8 +40,9 @@ nav ul {
 
 nav li {
   width: 100px;
-  display: inline-block;
-  border-radius: 10px;
+  display: block;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 nav li a {
