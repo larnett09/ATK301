@@ -1,3 +1,6 @@
+*{
+  font-family: hack;
+}
 body{
   background-color: #050506;
 }
@@ -37,6 +40,7 @@ nav ul {
 nav li {
   width: 100px;
   display: inline-block;
+  border-radius: 10px;
 }
 
 nav li a {
